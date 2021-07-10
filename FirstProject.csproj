@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject>FirstProject.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="TestAccesss">
+      <HintPath>..\..\AccessTrail\TestAccesss\bin\Debug\net5.0\TestAccesss.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
